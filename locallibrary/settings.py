@@ -39,7 +39,7 @@ ALLOWED_HOSTS = ['library.quackt.com', 'web-production-2aff.up.railway.app', '12
 
 ## For example, for a site URL is at 'web-production-3640.up.railway.app'
 ## (replace the string below with your own site URL):
-CSRF_TRUSTED_ORIGINS = ['https://web-production-2aff.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://library.quackt.com', 'https://web-production-2aff.up.railway.app']
 
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
